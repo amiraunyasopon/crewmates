@@ -1,5 +1,5 @@
 import './App.css'
-import { Link, useRoutes } from 'react-router-dom'
+import { useRoutes } from 'react-router-dom'
 import Landing from "./pages/Landing"
 import ReadCrew from "./pages/ReadCrew"
 import EditCrew from "./pages/EditCrew"
