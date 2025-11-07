@@ -4,6 +4,7 @@ import Landing from "./pages/Landing"
 import ReadCrew from "./pages/ReadCrew"
 import EditCrew from "./pages/EditCrew"
 import CreateCrew from "./pages/CreateCrew"
+import DetailedView from "./pages/DetailedView"
 import NavBar from "./components/NavBar"
 function App() {
 
@@ -23,6 +24,10 @@ function App() {
         {
             path: "/gallery/edit/:id",
             element: <EditCrew />
+        },
+        {
+            path: "/gallery/detailed/:id",
+            element: <DetailedView />
         }
     ]);
 
