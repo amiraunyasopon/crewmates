@@ -13,16 +13,16 @@ function App() {
             element: <Landing />
         },
         {
-            path: "edit/:id",
-            element: <EditCrew />
-        },
-        {
             path: "/new",
             element: <CreateCrew />
         },
         {
             path: "/gallery",
             element: <ReadCrew />
+        },
+        {
+            path: "/gallery/edit/:id",
+            element: <EditCrew />
         }
     ]);
 
