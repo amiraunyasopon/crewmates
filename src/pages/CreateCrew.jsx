@@ -4,9 +4,12 @@ import { supabase } from '../client'
 
 const CreateCrew = () => {
     const [crew, setCrew] = useState({ name: "", speed: 0, color: "" })
-
+    const buttonData = [
+        "red", "orange", "yellow", "green", "blue", "purple"
+    ]
     const handleChange = (event) => {
         const { name, value } = event.target
+        
         setCrew((prev) => {
             return {
                 ...prev,
@@ -16,7 +19,6 @@ const CreateCrew = () => {
     }
 
     const createCrew = async (event) => {
-        // prevent page from automatically reloading
         event.preventDefault()
 
         // specifying Crewmates table, passingan object with a title, author, and description
@@ -28,7 +30,7 @@ const CreateCrew = () => {
         // redirect back to gallery URL
         window.location = "/gallery"
     }
-    
+
     return (
         <div>
             <form>
@@ -41,8 +43,18 @@ const CreateCrew = () => {
                 <br />
 
                 <label htmlFor="color">Color</label><br />
-                <textarea rows="5" cols="50" id="color" name="color" onChange={handleChange}>
-                </textarea>
+                {buttonData.map((color) => (
+                    <label key={color}>
+                        <input
+                            type="radio"
+                            name="color"
+                            value={color}
+                            checked={crew.color === color}
+                            onChange={handleChange}
+                        />
+                        {color}
+                    </label>
+                ))}
                 <br />
                 {/* button calls createPost */}
                 <input type="submit" value="Submit" onClick={createCrew} />
