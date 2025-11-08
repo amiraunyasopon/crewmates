@@ -25,7 +25,7 @@ const ReadCrew = () => {
                         .sort((a, b) => a.id - b.id)
                         .map((post, index) =>
                             <Crewmate
-                                key={post.id}
+                                key={index}
                                 id={post.id}
                                 name={post.name}
                                 speed={post.speed}
