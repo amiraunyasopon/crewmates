@@ -1,0 +1,94 @@
+/* Form Container */
+.edit-crew-form {
+    background: #fff;
+    /* White background for the form */
+    padding: 30px;
+    border-radius: 12px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    width: 100%;
+    max-width: 7000px;
+    /* Limit the form width */
+    text-align: center;
+    /* Center-align text */
+}
+
+/* Form Heading */
+.edit-crew-form h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form Labels */
+.edit-crew-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+/* Form Inputs */
+.edit-crew-form input[type="text"],
+.edit-crew-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Radio Buttons */
+.edit-crew-form .radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.edit-crew-form .radio-group label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.edit-crew-form .radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Buttons */
+.edit-crew-form .form-buttons {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.edit-crew-form button {
+    background-color: #333;
+    /* Dark background */
+    color: #fff;
+    /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect for Buttons */
+.edit-crew-form button:hover {
+    background-color: #ff9800;
+    /* Orange hover effect */
+    transform: scale(1.05);
+    /* Slightly enlarge the button */
+}
+
+/* Active Button State */
+.edit-crew-form button:active {
+    background-color: #e67e00;
+    /* Darker orange for active state */
+    transform: scale(0.95);
+    /* Slightly shrink the button */
+}
