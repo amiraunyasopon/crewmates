@@ -1,0 +1,86 @@
+/* General Card Styling */
+.Crewmate {
+    background-color: #fff;
+    /* White background for the card */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    padding: 20px;
+    /* Add padding inside the card */
+    margin: 15px;
+    /* Add spacing between cards */
+    text-align: center;
+    /* Center-align text */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /* Smooth hover effects */
+    border: 4px solid transparent;
+    /* Default border */
+}
+
+/* Hover Effect */
+.Crewmate:hover {
+    transform: scale(1.05);
+    /* Slightly enlarge the card on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Add a stronger shadow on hover */
+}
+
+/* Dynamic Border Colors */
+.Crewmate.red {
+    border-color: red;
+}
+
+.Crewmate.orange {
+    border-color: orange;
+}
+
+.Crewmate.yellow {
+    border-color: yellow;
+}
+
+.Crewmate.green {
+    border-color: green;
+}
+
+.Crewmate.blue {
+    border-color: blue;
+}
+
+.Crewmate.purple {
+    border-color: purple;
+}
+
+/* Text Styling */
+.Crewmate .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.Crewmate .speed {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.Crewmate .color {
+    font-size: 1rem;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+/* Links Styling */
+.Crewmate a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.Crewmate a:hover {
+    color: #ff9800;
+    /* Orange hover effect for links */
+}

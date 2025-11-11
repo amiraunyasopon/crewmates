@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 const Crewmate = (props) => {
     // remember to add link to edit the crewmate
     return (
-        <div className="Crewmate">
+        <div className={`Crewmate ${props.color}`}>
             <Link to={"edit/" + props.id}>[edit]</Link>
             <Link to={"detailed/" + props.id}>[detailedview]</Link>
             <h2 className="name">{props.name}</h2>

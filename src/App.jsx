@@ -35,7 +35,9 @@ function App() {
         <>
             <NavBar />
             <div className="App">
-                {element}
+                <div className="margins">
+                    {element}
+                </div>
             </div>
         </>
     )

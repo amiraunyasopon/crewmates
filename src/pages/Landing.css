@@ -1,0 +1,57 @@
+/* Landing Page Container */
+.landing-container {
+    text-align: center;
+    /* Center-align text */
+    background: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent black background */
+    padding: 40px;
+    border-radius: 12px;
+    /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    /* Subtle shadow for depth */
+    animation: fadeIn 1s ease-in-out;
+    /* Smooth fade-in animation */
+}
+
+/* Heading Styling */
+.landing-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffeb3b;
+    /* Bright yellow for the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Add depth to the text */
+}
+
+/* Paragraph Styling */
+.landing-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ffccbc;
+    /* Light orange for the paragraph text */
+    margin-bottom: 20px;
+}
+
+/* Add Animation for Fade-In */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Image Styling */
+.landing-container img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow for the image */
+}

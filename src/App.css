@@ -1,0 +1,36 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Body Styling */
+body {
+    background: linear-gradient(135deg, blue, lightblue);
+    /* Vibrant gradient background */
+    color: #fff;
+    /* White text for contrast */
+    height: 100vh;
+    /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Content Area Styling */
+.App {
+    margin-left: 250px;
+    /* Offset the content to the right of the NavBar */
+    width: calc(100% - 250px);
+    /* Take up the remaining width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margins {
+    margin: 50px;
+}
