@@ -4,7 +4,7 @@ Submitted by: **Amir Aunyasopon**
 
 This web app: **An application that allows you to create, edit, and delete crewmates with different names, speeds and colors**
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
@@ -29,27 +29,22 @@ The following **required** functionality is completed:
     - The detail page contains extra information about the crewmate not included in the summary page
     - Users can navigate to to the edit form from the detail page
 
-The following **optional** features are implemented:
-
-- [ ] A crewmate can be given a category upon creation which restricts their attribute value options
-  - e.g., a Dungeons and Dragons class or a development team role (project manager, product owner, etc.)
-  - User can choose a `category` option to describe their crewmate before any attributes are specified
-  - Based on the category value, users are allowed to access only a subset of the possible attributes
-- [ ] A section of the summary page, displays summary statistics about a user’s crew on their crew page
-  - e.g., the percent of members with a certain attribute 
-- [ ] The summary page displays a custom “success” metric about a user’s crew which changes the look of the crewmate list
-  - e.g., a pirate crew’s predicted success at commandeering a new galley
-
-
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* A detailed view which only displays the information for a specific user (can display more in the future)
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<div>
+    <a href="https://www.loom.com/share/781fa1b6f9a64a0b99ae749585e597e5">
+      <p>CodePath — crewmates - 10 November 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/781fa1b6f9a64a0b99ae749585e597e5">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/781fa1b6f9a64a0b99ae749585e597e5-5e7b43d9841541a1-full-play.gif#t=0.1">
+    </a>
+  </div>
 
 <!-- Replace this with whatever GIF tool you used! -->
 Video created with Loom
@@ -58,9 +53,6 @@ Video created with Loom
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
-## Notes
-
-Describe any challenges encountered while building the app.
 
 ## License
 
